@@ -5,114 +5,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business promotion</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img src="" alt="">
-        </a>
-        <ul>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Resources</a></li>
-        </ul>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
-    </header>
-
-    <section>
-        <h1>Work at the speed of thought</h1>
-        <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-            next user experience.</p>
-        <button type="button">Get started</button>
-        <a href="#">Watch the Video</a>
-    </section>
-
-    <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
-            <li>
-                <img src="" alt="">
-                <h3>First click test</h3>
-                <p>While most people enjoy casino gambling,</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Design surveys</h3>
-                <p>Sports betting, lottery and bingo playing for the fun</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Preference tests</h3>
-                <p>The Myspace page defines the individual.</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Five second tests</h3>
-                <p>Personal choices and the overall personality of the person. </p>
-            </li>
-        </ul>
-        <button type="button">Sing up now</button>
-    </section>
-
-    <section>
-        <h2></h2>
-        <ul>
-            <li>
-                <h3>Effortless Validation for</h3>
-                <h4>Management</h4>
-                <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
-                    overall personality of the person. </p>
-                <p>Accessory makers</p>
-                <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-                <p>Alterationists</p>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-                <img src="" alt="">
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Easier decision making for</h3>
-                <h4>Easier decision making for</h4>
-                <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
-                    overall personality of the person. </p>
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                        <p>Never worry about overpaying for your energy again. </p>
+    <header class="header">
+        <div class="container header-nav">
+            <a href="#" class="logo">
+                <img src="./images/logo.svg" class="logo-img" alt="logo">
+                Product
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active link">Product</a>
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <p>We will only switch you to energy companies that we trust and will treat you right</p>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link">Pricing</a>
                     </li>
-                    <li><img src="" alt="">
-                        <p>We track the markets daily and know where the savings are.</p>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link">Resources</a>
                     </li>
                 </ul>
+            </nav>
+            <ul class="login-list">
+                <li class="login-item">
+                    <button type="button" class="login-btn">Sign In</button>
+                </li>
+                <li class="login-item">
+                    <button type="button" class="login-btn current">Sign Up</button>
+                </li>
+            </ul>
+        </div>
+    </header>
 
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <h1 class="hero-title">Work at the speed of thought</h1>
+                <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most
+                    intuitive
+                    way to imagine your next user experience.</p>
+                <button type="button" class="hero-btn">Get started</button>
+                <a href="#" class="hero-link">Watch the Video</a>
+            </div>
+            <img src="./images/hero-img.svg" alt="Hero">
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <h2 class="product-title">Product was Built Specifically <br> for You</h2>
+        <ul class="product-list">
+            <li class="product-item">
+                <div class="product-img">
+                    <svg class="product-icon" aria-label="clock" width="11" height="18">
+                      <use href="./images/icons.svg#icon-strilka"></use>
+                    </svg>
+                  </div>
+                <h3 class="product-name">First click test</h3>
+                <p class="product-text">While most people enjoy casino gambling,</p>
             </li>
-            <li>
-                <h3>Optimisation for</h3>
-                <h4>Collaborative</h4>
-                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still
-                    face a double standard when it comes to their behavior. </p>
-                <p>Accessory makers</p>
-                <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-                <p>Alterationists</p>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-                <img src="" alt="">
-                <img src="" alt="">
+            <li class="product-item">
+                <div class="product-img blue">
+                    <svg class="product-icon" aria-label="clock" width="11" height="18">
+                      <use href="./images/icons.svg#icon-zigzag"></use>
+                    </svg>
+                  </div>
+                <h3 class="product-name">Design surveys</h3>
+                <p class="product-text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="product-item">
+                <div class="product-img purple">
+                    <svg class="product-icon" aria-label="clock" width="11" height="18">
+                      <use href="./images/icons.svg#icon-hart"></use>
+                    </svg>
+                  </div>
+                <h3 class="product-name">Preference tests</h3>
+                <p class="product-text">The Myspace page defines the individual.</p>
+            </li>
+            <li class="product-item">
+                <div class="product-img red">
+                    <svg class="product-icon" aria-label="clock" width="11" height="18">
+                      <use href="./images/icons.svg#icon-clock"></use>
+                    </svg>
+                  </div>
+                <h3 class="product-name">Five second tests</h3>
+                <p class="product-text">Personal choices and the overall personality of the person.</p>
             </li>
         </ul>
+        <button type="button" class="product-btn">Sing up now</button>
+        </div>
     </section>
+
+    <section class="management">
+        <div class="container">
+            <div class="management-wrapper">
+                <h2 class="section-title">
+                    <span class="section-subtitle">Effortless Validation for</span>
+                    Management
+                </h2>
+                <p class="management-text">The Myspace page defines the individual, his or her characteristics, traits, personal
+                    choices and the
+                    overall personality of the person. </p>
+        
+                <ul class="management-list">
+                    <li class="management-item">
+                        <h3 class="management-name">Accessory makers</h3>
+                        <p class="management-text">While most people enjoy casino gambling, sports betting, lottery and bingo
+                            playing for the fun</p>
+                    </li>
+                    <li>
+                        <h3 class="management-name">Alterationists</h3>
+                        <p class="management-text">If you are looking for a new way to promote your business that won’t cost you
+                            more money</p>
+                    </li>
+                </ul>
+            </div>
+            <img src="./images/management-img.svg" width="540" height="500" alt="documents">
+        </div>
+    </section>
+
+    <section class="support">
+        <div class="container">
+            <img src="./images/support-img.svg" alt="">
+        <div class="support-wrapper">
+            <h2 class="section-title">
+                <span class="section-subtitle">Easier decision making for</span>
+                Customer Support
+            </h2>
+            <p class="support-text">The Myspace page defines the individual, his or her characteristics, traits,
+                personal choices and the
+                overall personality of the person. </p>
+            <ul class="support-list">
+                <li class="support-item">
+                    <img src="./images/tick.svg" class="support-img" alt="arrow">
+                    <p class="support-text">Never worry about overpaying for your energy again. </p>
+                </li>
+                <li class="support-item">
+                    <img src="./images/tick.svg" class="support-img" alt="arrow">
+                    <p class="support-text">We will only switch you to energy companies that we trust and will treat you
+                        right</p>
+                </li>
+                <li class="support-item">
+                    <img src="./images/tick.svg" class="support-img" alt="arrow">
+                    <p class="support-text">We track the markets daily and know where the savings are.</p>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="collaborative">
+        <h2 class="section-title">
+            <span class="section-subtitle">Optimisation for</span>
+            Collaborative
+        </h2>
+        <p class="collaborative-text">Few would argue that, despite the advancements of feminism over the past three
+            decades, women still
+            face a double standard when it comes to their behavior. </p>
+        <ul class="support-list">
+            <li class="collaborative-item">
+                <p class="collaborative-name">Accessory makers</p>
+                <p class="collaborative-text">While most people enjoy casino gambling, sports betting, lottery and bingo
+                    playing for the
+                    fun</p>
+
+            </li>
+            <li class="collaborative-item">
+                <p class="collaborative-name">Alterationists</p>
+                <p class="collaborative-text">If you are looking for a new way to promote your business that won’t cost
+                    you more money,
+                </p>
+
+            </li>
+        </ul>
+        <img src="./images/collaboration-img.svg" alt="">
+    </section>
+
+
 
     <section>
         <h2>Quick & Easy Process</h2>
-        <p>Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
-        <ul>
+        <p>Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing
+            page, Ux/UI?</p>
+        <ul class="list">
             <li>
                 <img src="" alt="">
                 <p>I can take care of your pitch</p>

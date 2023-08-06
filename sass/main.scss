@@ -1,5 +1,10 @@
-.bar {
-    color: aliceblue;
-    background-color: aqua;
-    font-size: 20px;
-}
+@import "./base/normalize";            /* Стилі нормалізатора */
+@import "./base/reset-styles";         /* Стилі reset */
+@import "./base/base-styles";          /* Базові стилі */
+@import "./utils/vars";                /* Змінні CSS */
+@import "./utils/visually-hidden";     /* visually-hidden */
+
+@import "./components/header"; 
+@import "./components/product"; 
+@import "./components/management"; 
+@import "./components/support"; 
