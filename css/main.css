@@ -517,10 +517,10 @@ img {
 }
 
 .product {
-  height: 503px;
+  margin-bottom: 52px;
   background-image: url(../../images/bg-top.svg);
   background-repeat: no-repeat;
-  background-position: center 120px;
+  background-position: center 130px;
 }
 
 .product-title {
@@ -593,6 +593,10 @@ img {
   line-height: 26px; /* 162.5% */
 }
 
+.product-login {
+  padding-bottom: 43px;
+}
+
 .product-btn {
   display: block;
   border-radius: 4px;
@@ -609,7 +613,7 @@ img {
 }
 
 .management {
-  padding-top: 52px;
+  margin-bottom: 100px;
 }
 .management .container {
   display: -webkit-box;
@@ -642,7 +646,7 @@ img {
 }
 
 .support {
-  padding-top: 52px;
+  margin-bottom: 100px;
 }
 .support .container {
   display: -webkit-box;
@@ -682,7 +686,7 @@ img {
 }
 
 .collaborative {
-  padding-top: 52px;
+  margin-bottom: 100px;
 }
 .collaborative .container {
   display: -webkit-box;
@@ -715,10 +719,13 @@ img {
 }
 
 .quick {
-  padding: 50px 0;
+  margin-bottom: 100px;
   background-image: url(../../images/bg-bottom.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 0px;
+}
+.quick .container {
+  padding-top: 50px;
 }
 
 .quick .section-title {
@@ -740,6 +747,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
+  margin-bottom: 40px;
 }
 
 .quick-list {
@@ -751,7 +759,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .quick-item {
@@ -772,6 +780,13 @@ img {
   margin-bottom: 0px;
 }
 
+.quick-bg {
+  background-image: url(../../images/cloud-left.png);
+}
+.quick-bg.right {
+  background-image: url(../../images/cloud-right.png);
+}
+
 .quick-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -785,9 +800,17 @@ img {
           justify-content: center;
 }
 
-.quick-bg {
-  background-image: url(../../images/cloud-left.png);
-}
-.quick-bg.right {
-  background-image: url(../../images/cloud-right.png);
+.quick-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  background: #02897a;
+  padding: 14px 30px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
