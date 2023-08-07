@@ -5,3 +5,29 @@
       gap: 84px;
     }
   }
+
+  .support-wrapper {
+    padding-top: 48px;
+  max-width: 486px;
+  }
+
+.support-text {
+  color: #22343D;
+  // font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.support-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.support-icon {
+  width: 11px;
+  height: 18px;
+}

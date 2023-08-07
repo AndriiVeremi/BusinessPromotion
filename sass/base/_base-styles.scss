@@ -39,19 +39,25 @@ img {
 }
 
 .section-title {
-  color: #22343D;
-// font-family: Poppins;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #22343d;
+  // font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
 }
 
 .section-subtitle {
-  color: #22343D;
+  color: #22343d;
   // font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal; 
+  line-height: normal;
+
+  margin-bottom: 8px;
 }

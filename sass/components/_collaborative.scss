@@ -1,0 +1,32 @@
+.collaborative {
+    padding-top: 52px;
+    & .container {
+      display: flex;
+      gap: 84px;
+    }
+  }
+  
+  .collaborative-wrapper {
+    padding-top: 48px;
+    max-width: 486px;
+  }
+  
+  .collaborative-name {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 12px;
+  }
+  
+  .collaborative-text {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 30px;
+  }

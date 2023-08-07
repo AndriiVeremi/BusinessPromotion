@@ -1,0 +1,48 @@
+.quick .section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.quick-subtitle {
+  max-width: 542px;
+  margin: 0 auto;
+  color: #22343d;
+  text-align: center;
+  // font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.quick-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.quick-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  width: calc((100% - 30px) / 2);
+  &:not(:nth-child(-n + 2)) {
+    margin-bottom: 0px;
+  }
+}
+
+.quick-text {
+  display: flex;
+  background-image: url(../../images/cloud-left.png);
+  width: 300px;
+  height: 85px;
+  align-items: center;
+  justify-content: center;
+  &.right {
+    background-image: url(../../images/cloud-right.png);
+  }
+}
