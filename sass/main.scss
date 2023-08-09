@@ -1,8 +1,8 @@
-@import "./base/normalize";            /* Стилі нормалізатора */
-@import "./base/reset-styles";         /* Стилі reset */
-@import "./base/base-styles";          /* Базові стилі */
-@import "./utils/vars";                /* Змінні CSS */
-@import "./utils/visually-hidden";     /* visually-hidden */
+@import "./base/normalize";           
+@import "./base/reset-styles";        
+@import "./base/base-styles";         
+@import "./utils/vars";                
+@import "./utils/visually-hidden";    
 
 @import "./components/header";
 @import "./components/hero"; 
@@ -11,3 +11,4 @@
 @import "./components/support"; 
 @import "./components/collaborative"; 
 @import "./components/quick"; 
+@import "./components/strategies"; 

@@ -3,77 +3,148 @@
   background-image: url(../../images/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: center 0px;
+  
   & .container {
     padding-top: 50px;
   }
-}
-
-.quick .section-title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.quick-subtitle {
-  max-width: 542px;
-  margin: 0 auto;
-  color: #22343d;
-  text-align: center;
-  // font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px; /* 162.5% */
-  margin-bottom: 40px;
-}
-
-.quick-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.quick-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 17px;
-  margin-bottom: 25px;
-  width: calc((100% - 30px) / 2);
-  &:not(:nth-child(-n + 2)) {
-    margin-bottom: 0px;
+  
+  & .section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
   }
-}
-
-.quick-bg {
-  background-image: url(../../images/cloud-left.png);
-  &.right {
-    background-image: url(../../images/cloud-right.png);
+  
+  &-subtitle {
+    max-width: 542px;
+    margin: 0 auto;
+    color: #22343d;
+    text-align: center;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 40px;
   }
-}
-
-.quick-text {
-  display: flex;
-  width: 300px;
-  height: 85px;
-  position: relative;
-  top: 23px;
-  justify-content: center;
-}
-
-.quick-btn {
+  
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 25px;
+    width: calc((100% - 30px) / 2);
+    &:not(:nth-child(-n + 2)) {
+      margin-bottom: 0px;
+    }
+  }
+  
+  &-bg {
+    background-image: url(../../images/cloud-left.png);
+    &.right {
+      background-image: url(../../images/cloud-right.png);
+    }
+  }
+  
+  &-text {
+    display: flex;
+    width: 300px;
+    height: 85px;
+    position: relative;
+    top: 23px;
+    justify-content: center;
+  }
+  
+  &-btn {
     display: block;
-  margin: 0 auto;
-  border-radius: 4px;
-  background: #02897a;
-  padding: 14px 30px;
-  color: #fff;
-  // font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  border: none;
-  cursor: pointer;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: #02897a;
+    padding: 14px 30px;
+    color: #fff;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+  }
 }
+
+// .quick .section-title {
+//   display: flex;
+//   align-items: center;
+//   margin-bottom: 25px;
+// }
+
+// .quick-subtitle {
+//   max-width: 542px;
+//   margin: 0 auto;
+//   color: #22343d;
+//   text-align: center;
+//   // font-family: Poppins;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 26px; /* 162.5% */
+//   margin-bottom: 40px;
+// }
+
+// .quick-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   margin-bottom: 50px;
+// }
+
+// .quick-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 17px;
+//   margin-bottom: 25px;
+//   width: calc((100% - 30px) / 2);
+//   &:not(:nth-child(-n + 2)) {
+//     margin-bottom: 0px;
+//   }
+// }
+
+// .quick-bg {
+//   background-image: url(../../images/cloud-left.png);
+//   &.right {
+//     background-image: url(../../images/cloud-right.png);
+//   }
+// }
+
+// .quick-text {
+//   display: flex;
+//   width: 300px;
+//   height: 85px;
+//   position: relative;
+//   top: 23px;
+//   justify-content: center;
+// }
+
+// .quick-btn {
+//   display: block;
+//   margin: 0 auto;
+//   border-radius: 4px;
+//   background: #02897a;
+//   padding: 14px 30px;
+//   color: #fff;
+//   // font-family: Poppins;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: normal;
+//   border: none;
+//   cursor: pointer;
+// }
