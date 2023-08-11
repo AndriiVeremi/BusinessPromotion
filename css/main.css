@@ -776,4 +776,131 @@ img {
   line-height: normal;
   border: none;
   cursor: pointer;
+}
+
+.strategies {
+  margin-bottom: 100px;
+}
+.strategies-subtitle {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 465px;
+  margin-bottom: 40px;
+}
+.strategies-item {
+  width: 350px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.strategies-img {
+  width: 350px;
+  height: 185px;
+  margin-bottom: 24px;
+}
+.strategies-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.strategies-wrapper {
+  padding: 0 27px;
+  margin-bottom: 40px;
+}
+.strategies-date {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 12px;
+}
+.strategies-title {
+  color: #22343d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+}
+.strategies-bold {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.price-subtitle {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 72px;
+}
+.price-item {
+  width: 322px;
+  border-radius: 8px;
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.price-title {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+.price-description {
+  color: #22343d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+}
+.price-number {
+  color: #02897a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 131.579% */
+  letter-spacing: 0.2px;
+}
+.price-valute {
+  color: #02897a;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  letter-spacing: 0.1px;
+}
+.price-month {
+  color: #afafaf;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  letter-spacing: 0.1px;
 }/*# sourceMappingURL=main.css.map */

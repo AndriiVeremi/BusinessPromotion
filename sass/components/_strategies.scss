@@ -1,0 +1,59 @@
+.strategies {
+  margin-bottom: 100px;
+  &-subtitle {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 465px;
+    margin-bottom: 40px;
+  }
+  &-item {
+    width: 350px;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  &-img {
+    width: 350px;
+    height: 185px;
+    margin-bottom: 24px;
+  }
+  &-list {
+    display: flex;
+    gap: 30px;
+  }
+  &-wrapper {
+    padding: 0 27px;
+    margin-bottom: 40px;
+    // border-radius: 8px;
+    // border: 1px solid #333;
+  }
+  &-date {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 12px;
+  }
+  &-title {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+  }
+  &-bold {
+    color: #22343d;
+    // font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+}
+}
