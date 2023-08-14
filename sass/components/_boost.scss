@@ -1,0 +1,23 @@
+.boost {
+  margin-bottom: 100px;
+
+  & .container {
+    padding: 0 71px;
+  }
+  &-wrapper {
+    display: flex;
+    border-radius: 32px;
+    background: #02897a;
+  }
+  &-content {
+    padding: 50px;
+  }
+  &-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.4%; /* 48.448px */
+  }
+}
