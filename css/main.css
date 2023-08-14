@@ -801,6 +801,9 @@ img {
   height: 185px;
   margin-bottom: 24px;
 }
+.strategies-img:hover, .strategies-img:focus {
+  scale: 1.1;
+}
 .strategies-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -860,7 +863,31 @@ img {
   -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
 }
-.price-title {
+.price-item .green {
+  background-color: #02897a;
+  border-radius: 8px;
+}
+.price-btn {
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #02897a;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.price-btn.color {
+  color: #02897a;
+  background: #fff;
+}
+
+.card {
+  padding: 32px 73px;
+}
+.card-title {
   color: #22343d;
   font-family: Poppins;
   font-size: 24px;
@@ -868,15 +895,34 @@ img {
   font-weight: 700;
   line-height: 40px; /* 166.667% */
 }
-.price-description {
+.card-title.color {
+  color: #fff;
+}
+.card-description {
   color: #22343d;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px; /* 250% */
+  line-height: 40px;
+  /* 250% */
 }
-.price-number {
+.card-description.color {
+  color: #fff;
+}
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+}
+.card-number {
   color: #02897a;
   text-align: center;
   font-family: Montserrat;
@@ -886,16 +932,22 @@ img {
   line-height: 100px; /* 131.579% */
   letter-spacing: 0.2px;
 }
-.price-valute {
+.card-number.color {
+  color: #fff;
+}
+.card-valute {
   color: #02897a;
-  font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px; /* 125% */
   letter-spacing: 0.1px;
+  text-align: start;
 }
-.price-month {
+.card-valute.color {
+  color: #fff;
+}
+.card-month {
   color: #afafaf;
   font-family: Montserrat;
   font-size: 16px;
@@ -903,4 +955,27 @@ img {
   font-weight: 400;
   line-height: 19px; /* 118.75% */
   letter-spacing: 0.1px;
+}
+.card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+.card-info {
+  color: #22343d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.2px;
+}
+.card-info.color {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

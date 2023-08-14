@@ -19,7 +19,31 @@
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    & .green {
+      background-color: #02897a;
+      border-radius: 8px;
+    }
   }
+  &-btn {
+    padding: 11px 18px;
+    border-radius: 8px;
+    background: #02897a;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    &.color {
+      color: #02897a;
+      background: #fff;
+    }
+  }
+}
+
+.card {
+  padding: 32px 73px;
   &-title {
     color: #22343d;
     font-family: Poppins;
@@ -27,6 +51,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 166.667% */
+    &.color {
+      color: #fff;
+    }
   }
   &-description {
     color: #22343d;
@@ -34,7 +61,16 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 250% */
+    line-height: 40px;
+    &.color {
+      color: #fff;
+    } /* 250% */
+  }
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
   }
   &-number {
     color: #02897a;
@@ -45,15 +81,22 @@
     font-weight: 700;
     line-height: 100px; /* 131.579% */
     letter-spacing: 0.2px;
+    &.color {
+      color: #fff;
+    }
   }
   &-valute {
     color: #02897a;
-    font-family: Inter;
+    // font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 125% */
     letter-spacing: 0.1px;
+    text-align: start;
+    &.color {
+      color: #fff;
+    }
   }
   &-month {
     color: #afafaf;
@@ -63,5 +106,23 @@
     font-weight: 400;
     line-height: 19px; /* 118.75% */
     letter-spacing: 0.1px;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  &-info {
+    color: #22343d;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.2px;
+    &.color {
+      color: #fff;
+    }
   }
 }
