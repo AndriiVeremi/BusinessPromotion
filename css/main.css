@@ -1050,10 +1050,23 @@ img {
   padding: 50px;
 }
 .boost-text {
+  max-width: 500px;
   color: #fff;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 151.4%; /* 48.448px */
+  margin-bottom: 46px;
+}
+.boost-btn {
+  padding: 10px 34px;
+  border-radius: 8px;
+  background: #fff;
+  color: #02897a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
