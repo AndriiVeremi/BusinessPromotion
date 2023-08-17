@@ -755,14 +755,14 @@ img {
   gap: 17px;
   margin-bottom: 25px;
   width: calc((100% - 30px) / 2);
+  -webkit-transition: color, scale 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, scale 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .quick-item:not(:nth-child(-n+2)) {
   margin-bottom: 0px;
 }
-.quick-text:hover {
+.quick-item:hover {
   color: #02897a;
-}
-.quick-img:hover {
   scale: 1.1;
 }
 .quick-bg {
@@ -818,6 +818,10 @@ img {
   border: 1px solid #efefef;
   border-radius: 8px;
   overflow: hidden;
+  -webkit-transition: -webkit-box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .strategies-item:hover, .strategies-item:focus {
   -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
@@ -852,6 +856,11 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 166.667% */
+  -webkit-transition: color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.strategies-title:hover {
+  color: #02897a;
 }
 .strategies-bold {
   color: #22343d;
@@ -886,13 +895,15 @@ img {
   background: #fff;
   -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: scale 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: scale 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .price-item .green {
   background-color: #02897a;
   border-radius: 8px;
 }
 .price-item:hover {
-  scale: 0.95;
+  scale: 1.05;
 }
 .price-btn {
   padding: 11px 18px;
@@ -905,6 +916,9 @@ img {
   font-weight: 600;
   line-height: normal;
   border: none;
+}
+.price-btn:active {
+  scale: 0.95;
 }
 .price-btn.color {
   color: #02897a;
@@ -1058,6 +1072,22 @@ img {
 }
 .clients-content {
   text-align: left;
+}
+.clients-title {
+  color: #02897a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.clients-work {
+  color: #252b42;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
 }
 
 .boost {
