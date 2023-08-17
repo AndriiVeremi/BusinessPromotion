@@ -75,6 +75,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    &:active {
+        scale: 0.95;
+      }
   }
   &-made {
     margin-top: 16px;

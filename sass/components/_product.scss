@@ -87,6 +87,9 @@
     border: none;
     margin: 0 auto;
     text-transform: uppercase;
+    &:active {
+      scale: 0.95;
+    }
   }
 }
 

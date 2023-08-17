@@ -23,6 +23,9 @@
       background-color: #02897a;
       border-radius: 8px;
     }
+    &:hover {
+      scale: 0.95;
+    }
   }
   &-btn {
     padding: 11px 18px;

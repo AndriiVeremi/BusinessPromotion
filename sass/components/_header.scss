@@ -35,10 +35,12 @@
   line-height: 28px; /* 175% */
   &.active {
     font-weight: 600;
+    color: #02897a;
   }
   &:hover,
   &:focus {
     font-weight: 600;
+    color: #02897a;
   }
 }
 
@@ -63,6 +65,9 @@
     background: #02897a;
     color: #fff;
     border: 1px solid #02897a;
+  }
+  &:active {
+    scale: 0.95;
   }
 }
 

@@ -84,6 +84,9 @@
     line-height: normal;
     border: none;
     cursor: pointer;
+    &:active {
+      scale: 0.95;
+    }
   }
 }
 

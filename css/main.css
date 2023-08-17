@@ -412,9 +412,11 @@ img {
 }
 .nav-link.active {
   font-weight: 600;
+  color: #02897a;
 }
 .nav-link:hover, .nav-link:focus {
   font-weight: 600;
+  color: #02897a;
 }
 
 .login-list {
@@ -440,6 +442,9 @@ img {
   background: #02897a;
   color: #fff;
   border: 1px solid #02897a;
+}
+.login-btn:active {
+  scale: 0.95;
 }
 
 .hero {
@@ -483,6 +488,9 @@ img {
   line-height: normal;
   margin-right: 30px;
 }
+.hero-btn:active {
+  scale: 0.95;
+}
 .hero-link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -503,6 +511,9 @@ img {
   height: 18px;
   border-radius: 4px;
   margin-right: 9px;
+}
+.hero-link:active {
+  scale: 0.95;
 }
 
 .product {
@@ -590,6 +601,9 @@ img {
   border: none;
   margin: 0 auto;
   text-transform: uppercase;
+}
+.product-btn:active {
+  scale: 0.95;
 }
 
 .management {
@@ -783,6 +797,9 @@ img {
   border: none;
   cursor: pointer;
 }
+.quick-btn:active {
+  scale: 0.95;
+}
 
 .strategies {
   margin-bottom: 100px;
@@ -802,13 +819,14 @@ img {
   border-radius: 8px;
   overflow: hidden;
 }
+.strategies-item:hover, .strategies-item:focus {
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
 .strategies-img {
   width: 350px;
   height: 185px;
   margin-bottom: 24px;
-}
-.strategies-img:hover, .strategies-img:focus {
-  scale: 1.1;
 }
 .strategies-list {
   display: -webkit-box;
@@ -872,6 +890,9 @@ img {
 .price-item .green {
   background-color: #02897a;
   border-radius: 8px;
+}
+.price-item:hover {
+  scale: 0.95;
 }
 .price-btn {
   padding: 11px 18px;
@@ -1076,6 +1097,9 @@ img {
   line-height: normal;
   border: none;
 }
+.boost-btn:active {
+  scale: 0.95;
+}
 
 .footer {
   margin-bottom: 40px;
@@ -1165,6 +1189,9 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.footer-btn:active {
+  scale: 0.95;
 }
 .footer-made {
   margin-top: 16px;
