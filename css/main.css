@@ -543,7 +543,7 @@ img {
   content: " ";
   bottom: 0;
   left: 0;
-  background-image: url("../../images/play.svg");
+  background-image: url(../images/play.svg);
   width: 16px;
   height: 18px;
   border-radius: 4px;
@@ -555,7 +555,7 @@ img {
 
 .product {
   margin-bottom: 52px;
-  background-image: url("../../images/bg-top.svg");
+  background-image: url(../images/bg-top.svg);
   background-repeat: no-repeat;
   background-position: center 120px;
 }
@@ -913,7 +913,6 @@ img {
 }
 .price-subtitle {
   color: #22343d;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -947,7 +946,6 @@ img {
   border-radius: 8px;
   background: #02897a;
   color: #fff;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -967,7 +965,6 @@ img {
 }
 .card-title {
   color: #22343d;
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -978,7 +975,6 @@ img {
 }
 .card-description {
   color: #22343d;
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1002,7 +998,6 @@ img {
 .card-number {
   color: #02897a;
   text-align: center;
-  font-family: Montserrat;
   font-size: 76px;
   font-style: normal;
   font-weight: 700;
