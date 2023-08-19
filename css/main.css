@@ -555,7 +555,7 @@ img {
 
 .product {
   margin-bottom: 52px;
-  background-image: url(/images/bg-top.svg);
+  background-image: url(../images/bg-top.svg);
   background-repeat: no-repeat;
   background-position: center 170px;
 }
