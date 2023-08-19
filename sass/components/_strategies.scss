@@ -5,7 +5,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 1.6;
     width: 465px;
     margin-bottom: 40px;
   }
@@ -38,7 +38,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 1.7;
     margin-bottom: 12px;
   }
   &-title {
@@ -46,7 +46,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 166.667% */
+    line-height: 1.6; 
     transition: color $duration-function $timing-function;
     &:hover {
       color: #02897a;
@@ -57,6 +57,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 166.667% */
+    line-height: 1.6;
 }
 }
