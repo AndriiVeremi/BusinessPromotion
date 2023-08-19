@@ -555,7 +555,7 @@ img {
 
 .product {
   margin-bottom: 52px;
-  background-image: url(../../images/bg-top.svg);
+  background-image: url(/images/bg-top.svg);
   background-repeat: no-repeat;
   background-position: center 170px;
 }
@@ -741,7 +741,7 @@ img {
 
 .quick {
   margin-bottom: 100px;
-  background-image: url(../../images/bg-bottom.svg);
+  background-image: url(/images/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: center 0px;
 }
