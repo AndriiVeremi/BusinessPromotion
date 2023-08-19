@@ -1,6 +1,6 @@
 .quick {
   margin-bottom: 100px;
-  background-image: url(/images/bg-bottom.svg);
+  background-image: url(../images/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: center 0px;
 
@@ -51,9 +51,9 @@
   }
 
   &-bg {
-    background-image: url(/images/cloud-left.png);
+    background-image: url(../images/cloud-left.png);
     &.right {
-      background-image: url(/images/cloud-right.png);
+      background-image: url(../images/cloud-right.png);
     }
   }
 

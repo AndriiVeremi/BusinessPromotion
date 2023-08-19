@@ -543,7 +543,7 @@ img {
   content: " ";
   bottom: 0;
   left: 0;
-  background-image: url("../../images/play.svg");
+  background-image: url("../images/play.svg");
   width: 16px;
   height: 18px;
   border-radius: 4px;
@@ -741,7 +741,7 @@ img {
 
 .quick {
   margin-bottom: 100px;
-  background-image: url(/images/bg-bottom.svg);
+  background-image: url(../images/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: center 0px;
 }
@@ -803,10 +803,10 @@ img {
   scale: 1.1;
 }
 .quick-bg {
-  background-image: url(/images/cloud-left.png);
+  background-image: url(../images/cloud-left.png);
 }
 .quick-bg.right {
-  background-image: url(/images/cloud-right.png);
+  background-image: url(../images/cloud-right.png);
 }
 .quick-text {
   display: -webkit-box;
@@ -1093,7 +1093,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 1.7;
   letter-spacing: 0.2px;
   text-align: left;
   margin-bottom: 16px;
@@ -1112,7 +1112,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.2px;
 }
 .clients-work {
@@ -1120,7 +1120,7 @@ img {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 171.429% */
+  line-height: 1.7;
   letter-spacing: 0.2px;
 }
 
