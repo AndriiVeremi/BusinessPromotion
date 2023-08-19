@@ -803,10 +803,10 @@ img {
   scale: 1.1;
 }
 .quick-bg {
-  background-image: url(../../images/cloud-left.png);
+  background-image: url(/images/cloud-left.png);
 }
 .quick-bg.right {
-  background-image: url(../../images/cloud-right.png);
+  background-image: url(/images/cloud-right.png);
 }
 .quick-text {
   display: -webkit-box;
