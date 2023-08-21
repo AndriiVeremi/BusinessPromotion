@@ -1,16 +1,23 @@
 .boost {
   margin-bottom: 100px;
-
-  & .container {
-    padding: 0 71px;
+  
+  @media screen and (min-width: 1150px) {
+    & .container {
+      padding: 0 71px;
+    }
   }
+
   &-wrapper {
     display: flex;
     border-radius: 32px;
     background: #02897a;
   }
   &-content {
-    padding: 50px;
+    padding: 21px;
+    
+    @media screen and (min-width: 1150px) {
+      padding: 50px;
+    }
   }
   &-text {
     max-width: 500px;
@@ -34,6 +41,17 @@
     border: none;
     &:active {
       scale: 0.95;
+    }
+  }
+  &-img1 {
+    @media screen and (min-width: 1149px) {
+      display: none;
+    }
+  }
+  &-img2 {
+    display: none;
+    @media screen and (min-width: 1150px) {
+      display: block;
     }
   }
 }

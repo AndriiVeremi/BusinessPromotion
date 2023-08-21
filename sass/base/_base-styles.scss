@@ -1,7 +1,11 @@
 .container {
-  width: 1150px;
+  width: 411px;
   padding: 0 20px;
   margin: 0 auto;
+ 
+  @media screen and (min-width: 1150px) {
+    width: 1150px;
+  }
 }
 
 .visually-hidden {
@@ -23,7 +27,7 @@ body {
   font-weight: 400;
   color: #22343d;
   font-size: 16px;
-  line-height: 26px; /* 162.5% */
+  line-height: 1.6; /* 162.5% */
 }
 
 img {
@@ -41,12 +45,10 @@ img {
 
 .section-title {
   color: #22343d;
-  // font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
@@ -54,7 +56,6 @@ img {
 
 .section-subtitle {
   color: #22343d;
-  // font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

@@ -1,27 +1,37 @@
 .collaborative {
-    margin-bottom: 100px;
-    & .container {
-      display: flex;
-      gap: 84px;
+  margin-bottom: 100px;
+
+  & .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 84px;
+
+    @media screen and (min-width: 1150px) {
+      flex-direction: row;
     }
+  }
+
+  @media screen and (min-width: 1150px) {
     &-wrapper {
       padding-top: 48px;
       max-width: 486px;
     }
-    &-name {
-      color: #22343d;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 1.6; 
-      margin-bottom: 12px;
-    }
-    &-text {
-      color: #22343d;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.6; 
-      margin-bottom: 30px;
-    }
   }
+  
+  &-name {
+    color: #22343d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  &-text {
+    color: #22343d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}

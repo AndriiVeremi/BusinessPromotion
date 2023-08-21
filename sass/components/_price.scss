@@ -11,7 +11,12 @@
   }
   &-list {
     display: flex;
+    flex-direction: column;
     gap: 72px;
+    align-items: center;
+    @media screen and (min-width: 1150px) {
+      flex-direction: row;
+    }
   }
   &-item {
     width: 322px;
@@ -64,10 +69,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2.5; 
+    line-height: 2.5;
     &.color {
       color: #fff;
-    } 
+    }
   }
   &-wrapper {
     display: flex;
@@ -81,7 +86,7 @@
     font-size: 76px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.3; 
+    line-height: 1.3;
     letter-spacing: 0.2px;
     &.color {
       color: #fff;
@@ -92,7 +97,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.2; 
+    line-height: 1.2;
     letter-spacing: 0.1px;
     text-align: start;
     &.color {
@@ -104,7 +109,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.1; 
+    line-height: 1.1;
     letter-spacing: 0.1px;
   }
   &-list {

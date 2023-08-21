@@ -6,8 +6,20 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.6;
-    width: 465px;
     margin-bottom: 40px;
+    @media screen and (min-width: 1150px) {
+      width: 465px;
+    }
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    @media screen and (min-width: 1150px) {
+      flex-direction: row;
+    }
   }
   &-item {
     width: 350px;
@@ -24,10 +36,6 @@
     width: 350px;
     height: 185px;
     margin-bottom: 24px;
-  }
-  &-list {
-    display: flex;
-    gap: 30px;
   }
   &-wrapper {
     padding: 0 27px;
@@ -46,7 +54,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.6; 
+    line-height: 1.6;
     transition: color $duration-function $timing-function;
     &:hover {
       color: #02897a;
@@ -58,5 +66,5 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.6;
-}
+  }
 }
