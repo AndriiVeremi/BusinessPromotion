@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins Regular"), url("../../fonts/Poppins-Regular.woff2") format("woff2"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Medium"), local("Poppins Medium"), url("../../fonts/Poppins-Medium.woff2") format("woff2"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins SemiBold"), local("Poppins SemiBold"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Bold"), local("Poppins Bold"), url("../../fonts/Poppins-Bold.woff2") format("woff2"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -367,34 +395,6 @@ img {
   margin-bottom: 8px;
 }
 
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Regular"), local("Poppins Regular"), url("../../fonts/Poppins-Regular.woff2") format("woff2"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Medium"), local("Poppins Medium"), url("../../fonts/Poppins-Medium.woff2") format("woff2"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins SemiBold"), local("Poppins SemiBold"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Bold"), local("Poppins Bold"), url("../../fonts/Poppins-Bold.woff2") format("woff2"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1484,7 +1484,6 @@ img {
   color: #02897a;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 }
 .footer-input::-moz-placeholder {
@@ -1492,7 +1491,6 @@ img {
   color: #02897a;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 }
 .footer-input:-ms-input-placeholder {
@@ -1500,7 +1498,6 @@ img {
   color: #02897a;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 }
 .footer-input::-ms-input-placeholder {
@@ -1508,7 +1505,6 @@ img {
   color: #02897a;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 }
 .footer-input::placeholder {
@@ -1516,7 +1512,6 @@ img {
   color: #02897a;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 }
 .footer-mobile {
@@ -1544,7 +1539,6 @@ img {
   color: #22343d;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.8;
   text-align: center;
 }
@@ -1579,7 +1573,6 @@ img {
   color: #22343d;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 2.8;
 }
 .menu-link:hover {
