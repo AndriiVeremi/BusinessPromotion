@@ -906,6 +906,10 @@ img {
     color: #02897a;
     scale: 1.1;
   }
+  .quick-img {
+    width: 89px;
+    height: 88px;
+  }
   .quick-bg {
     background-image: url(../images/cloud-left.png);
   }
@@ -947,6 +951,10 @@ img {
   .quick-item:hover {
     color: #02897a;
     scale: 1.1;
+  }
+  .quick-img {
+    width: 98px;
+    height: 98px;
   }
   .quick-bg {
     background-image: url(../images/cloud-left.png);
